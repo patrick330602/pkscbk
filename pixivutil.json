@@ -1,0 +1,18 @@
+{
+    "version": "20181008",
+    "license": "BSD 2-Clause",
+    "url": "https://github.com/Nandaka/PixivUtil2/releases/download/v20181008/pixivutil20181008.zip",
+    "homepage": "https://github.com/Nandaka/PixivUtil2",
+    "hash": "fa507a4dba24216193bfbcd64383ddfb97ad49315ef9fa88907e5ba37eee25f8",
+    "bin": [
+        "PixivUtil2.exe",
+        "w9xpopen.exe"
+    ],
+    "checkver": {
+        "url": "https://github.com/Nandaka/PixivUtil2/releases/latest",
+        "re": "/releases/tag/v([\\d\\-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Nandaka/PixivUtil2/releases/download/v$version/pixivutil$version.zip"
+    }
+}
