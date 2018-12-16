@@ -13,6 +13,9 @@
         "re": "/releases/tag/v([\\d\\-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Nandaka/PixivUtil2/releases/download/v$version/pixivutil$version.zip"
+        "url": "https://github.com/Nandaka/PixivUtil2/releases/download/v$version/pixivutil$version.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
 }
