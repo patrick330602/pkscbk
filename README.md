@@ -7,3 +7,4 @@ Programs that I use for scoop but not in `main` or `extra`.
 - `pixivutil`
 - `doctl`
 - `wslgit`
+- `boxes`

@@ -1,0 +1,21 @@
+{
+    "description": "Boxes is a command line filter program that draws ASCII art boxes around your input text",
+    "version": "1.1.2",
+    "license": "GPLv2",
+    "url": "https://github.com/ascii-boxes/boxes/releases/download/v1.1.2/boxes-1.1.2-intel-win32.zip",
+    "homepage": "https://github.com/ascii-boxes/boxes/",
+    "hash": "acd220702cfc6d2dd23b0aac8e52abc2318c5efdf6367ce93979d16c4cfd174c",
+    "extract_dir": "boxes-1.1.2",
+    "bin": "boxes.exe",
+    "checkver": {
+        "url": "https://github.com/ascii-boxes/boxes/releases/latest",
+        "re": "/releases/tag/v([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ascii-boxes/boxes/releases/download/v$version/boxes-$version-intel-win32.zip",
+        "hash": {
+            "url": "$url.sha256"
+        },
+        "extract_dir": "boxes-$version"
+    }
+}
