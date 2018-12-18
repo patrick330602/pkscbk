@@ -15,7 +15,7 @@
     },
     "bin": "mach2.exe",
     "checkver": {
-        "url": "https://github.com/digitalocean/doctl/releases/latest",
+        "url": "https://github.com/riverar/mach2/releases/latest",
         "re": "/releases/tag/([\\d\\.]+)"
     },
     "autoupdate": {
