@@ -15,6 +15,12 @@
     },
     "extract_dir": "Yu Writer",
     "bin": "Yu Writer.exe",
+    "shortcuts": [
+        [
+            "Yu Writer.exe",
+            "Yu Writer"
+        ]
+    ],
     "checkver": {
         "url": "https://ivarptr.github.io/yu-writer.site/",
         "re": "https://github.com/ivarptr/yu-writer.site/releases/download/v([\\d\\.]+)"
