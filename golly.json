@@ -1,5 +1,5 @@
 {
-    "description": "An open source, cross-platform application for exploring Conway's Game of Life and many other types of cellular automata.",
+    "description": "An open source, cross-platform application for exploring Conway's Game of Life and many other types of cellular automata",
     "homepage": "http://golly.sourceforge.net/",
     "version": "3.2",
     "license": "GPLv2",

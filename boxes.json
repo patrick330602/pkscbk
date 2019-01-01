@@ -1,5 +1,5 @@
 {
-    "description": "Boxes is a command line filter program that draws ASCII art boxes around your input text",
+    "description": "A command line filter program that draws ASCII art boxes around your input text",
     "version": "1.2",
     "license": "GPLv2",
     "url": "https://github.com/ascii-boxes/boxes/releases/download/v1.2/boxes-1.2-intel-win32.zip",

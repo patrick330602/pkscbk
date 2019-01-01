@@ -1,5 +1,5 @@
 {
-    "description": "This project provides a small executable that forwards all arguments to git running inside Bash on Windows/Windows Subsystem for Linux (WSL).",
+    "description": "A small executable that forwards all arguments to git running inside Bash on Windows/Windows Subsystem for Linux (WSL)",
     "version": "0.6.0",
     "license": "MIT",
     "url": "https://github.com/andy-5/wslgit/releases/download/v0.6.0/wslgit.exe",
