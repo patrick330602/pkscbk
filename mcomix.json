@@ -1,0 +1,29 @@
+{
+    "description": "A GTK+ comic book viewer.",
+    "homepage": "https://sourceforge.net/projects/mcomix/",
+    "version": "1.2",
+    "license": "GPLv2",
+    "url": "https://downloads.sourceforge.net/project/mcomix/MComix-1.2/mcomix-1.2.win32.all-in-one.zip",
+    "hash": "c6dda1b2a8334fa402a5522e3897a752509ed540127873bc1574abbfbdf7358b",
+    "extract_dir": "MComix-1.2",
+    "bin": [
+        "MComix.exe"
+    ],
+    "shortcuts": [
+        [
+            "MComix.exe",
+            "MComix"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/mcomix/files/",
+        "regex": "title=\"MComix-([\\d\\.]+)\"\\s+class=\"folder"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/mcomix/MComix-$version/mcomix-$version.win32.all-in-one.zip",
+        "hash": {
+            "url": "$url.sha256"
+        },
+        "extract_dir": "MComix-$version"
+    }
+}
