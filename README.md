@@ -11,3 +11,4 @@ Programs that I use for scoop but not in `main` or `extra`.
 - `mach2`
 - `yuwriter`
 - `golly`
+- `mcomix`
