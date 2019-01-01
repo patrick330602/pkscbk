@@ -19,6 +19,12 @@
         "bgolly.exe",
         "Golly.exe"
     ],
+    "shortcuts": [
+        [
+            "Golly.exe",
+            "Golly"
+        ]
+    ],
     "checkver": {
         "url": "https://sourceforge.net/projects/golly/files/golly",
         "regex": "title=\"golly-([\\d\\.]+)\"\\s+class=\"folder"
