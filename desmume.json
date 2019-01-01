@@ -1,0 +1,84 @@
+{
+    "description": "A Nintendo DS emulator",
+    "homepage": "https://desmume.org/",
+    "version": "0.9.10",
+    "license": "GPLv2",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/desmume/desmume/0.9.10/desmume-0.9.10-win64.zip",
+            "hash": "c6dda1b2a8334fa402a5522e3897a752509ed540127873bc1574abbfbdf7358b",
+            "bin": [
+                [
+                    "DeSmuME_0.9.10_x64.exe",
+                    "desmume"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "DeSmuME_0.9.10_x64.exe",
+                    "DeSmuME 64bit"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/desmume/desmume/0.9.10/desmume-0.9.10-win32.zip",
+            "hash": "bc64bbe504356b0a5d294e35235ace3d6f24a7ca5fa5a095de32f44666daecef",
+            "bin": [
+                [
+                    "DeSmuME_0.9.10_x86.exe",
+                    "desmume"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "DeSmuME_0.9.10_x86.exe",
+                    "DeSmuME 32bit"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://sourceforge.net/projects/desmume/files/desmume/",
+        "regex": "title=\"([\\d\\.]+)\"\\s+class=\"folder"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/desmume/desmume/$version/desmume-$version-win64.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                },
+                "bin": [
+                    [
+                        "DeSmuME_$version_x64.exe",
+                        "desmume"
+                    ]
+                ],
+                "shortcuts": [
+                    [
+                        "DeSmuME_$version_x64.exe",
+                        "DeSmuME 64bit"
+                    ]
+                ]
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/desmume/desmume/$version/desmume-$version-win32.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                },
+                "bin": [
+                    [
+                        "DeSmuME_$version_x86.exe",
+                        "desmume"
+                    ]
+                ],
+                "shortcuts": [
+                    [
+                        "DeSmuME_$version_x86.exe",
+                        "DeSmuME 32bit"
+                    ]
+                ]
+            }
+        }
+    }
+}

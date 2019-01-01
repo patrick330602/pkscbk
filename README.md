@@ -12,3 +12,4 @@ Programs that I use for scoop but not in `main` or `extra`.
 - `yuwriter`: Efficient cross-platform Markdown text editor
 - `golly`: An open source, cross-platform application for exploring Conway's Game of Life and many other types of cellular automata
 - `mcomix`: A GTK+ comic book viewer
+- `desmume`: A Nintendo DS emulator
