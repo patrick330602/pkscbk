@@ -9,3 +9,4 @@ Programs that I use for scoop but not in `main` or `extra`.
 - `wslgit`
 - `boxes`
 - `mach2`
+- `yuwriter`
