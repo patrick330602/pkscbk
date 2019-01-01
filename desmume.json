@@ -1,12 +1,12 @@
 {
     "description": "A Nintendo DS emulator",
     "homepage": "https://desmume.org/",
-    "version": "0.9.10",
+    "version": "0.9.11",
     "license": "GPLv2",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/desmume/desmume/0.9.10/desmume-0.9.10-win64.zip",
-            "hash": "c6dda1b2a8334fa402a5522e3897a752509ed540127873bc1574abbfbdf7358b",
+            "url": "https://downloads.sourceforge.net/project/desmume/desmume/0.9.11/desmume-0.9.11-win64.zip",
+            "hash": "15d8f488023c9ba6a720ec5ee8f8a33267b2d3c440be6475dd46342c240f5f04",
             "bin": [
                 [
                     "DeSmuME_0.9.10_x64.exe",
@@ -21,8 +21,8 @@
             ]
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/desmume/desmume/0.9.10/desmume-0.9.10-win32.zip",
-            "hash": "bc64bbe504356b0a5d294e35235ace3d6f24a7ca5fa5a095de32f44666daecef",
+            "url": "https://downloads.sourceforge.net/project/desmume/desmume/0.9.11/desmume-0.9.11-win32.zip",
+            "hash": "e6a341da4240a29351f42faf8bec2e1ada99f5e535dcbedacf7258ef775ded9f",
             "bin": [
                 [
                     "DeSmuME_0.9.10_x86.exe",
