@@ -24,6 +24,9 @@
             "DeSmuME"
         ]
     ],
+    "persist": [
+        "Battery", "Cheats", "Roms", "States"
+    ],
     "checkver": {
         "url": "https://sourceforge.net/projects/desmume/files/desmume/",
         "regex": "title=\"([\\d\\.]+)\"\\s+class=\"folder"
