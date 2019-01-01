@@ -6,37 +6,24 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.sourceforge.net/project/desmume/desmume/0.9.11/desmume-0.9.11-win64.zip",
-            "hash": "15d8f488023c9ba6a720ec5ee8f8a33267b2d3c440be6475dd46342c240f5f04",
-            "bin": [
-                [
-                    "DeSmuME_0.9.10_x64.exe",
-                    "desmume"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "DeSmuME_0.9.10_x64.exe",
-                    "DeSmuME 64bit"
-                ]
-            ]
+            "hash": "15d8f488023c9ba6a720ec5ee8f8a33267b2d3c440be6475dd46342c240f5f04"
         },
         "32bit": {
             "url": "https://downloads.sourceforge.net/project/desmume/desmume/0.9.11/desmume-0.9.11-win32.zip",
-            "hash": "e6a341da4240a29351f42faf8bec2e1ada99f5e535dcbedacf7258ef775ded9f",
-            "bin": [
-                [
-                    "DeSmuME_0.9.10_x86.exe",
-                    "desmume"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "DeSmuME_0.9.10_x86.exe",
-                    "DeSmuME 32bit"
-                ]
-            ]
+            "hash": "e6a341da4240a29351f42faf8bec2e1ada99f5e535dcbedacf7258ef775ded9f"
+            
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\\DeSmuME_*.exe\" | Rename-Item -NewName \"$dir\\desmume.exe\"",
+    "bin": [
+        "desmume.exe"
+    ],
+    "shortcuts": [
+        [
+            "desmume.exe",
+            "DeSmuME"
+        ]
+    ],
     "checkver": {
         "url": "https://sourceforge.net/projects/desmume/files/desmume/",
         "regex": "title=\"([\\d\\.]+)\"\\s+class=\"folder"
@@ -47,37 +34,13 @@
                 "url": "https://downloads.sourceforge.net/project/desmume/desmume/$version/desmume-$version-win64.zip",
                 "hash": {
                     "url": "$url.sha256"
-                },
-                "bin": [
-                    [
-                        "DeSmuME_$version_x64.exe",
-                        "desmume"
-                    ]
-                ],
-                "shortcuts": [
-                    [
-                        "DeSmuME_$version_x64.exe",
-                        "DeSmuME 64bit"
-                    ]
-                ]
+                }
             },
             "32bit": {
                 "url": "https://downloads.sourceforge.net/project/desmume/desmume/$version/desmume-$version-win32.zip",
                 "hash": {
                     "url": "$url.sha256"
-                },
-                "bin": [
-                    [
-                        "DeSmuME_$version_x86.exe",
-                        "desmume"
-                    ]
-                ],
-                "shortcuts": [
-                    [
-                        "DeSmuME_$version_x86.exe",
-                        "DeSmuME 32bit"
-                    ]
-                ]
+                }
             }
         }
     }
