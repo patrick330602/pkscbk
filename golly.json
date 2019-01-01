@@ -1,0 +1,44 @@
+{
+    "description": "An open source, cross-platform application for exploring Conway's Game of Life and many other types of cellular automata.",
+    "homepage": "http://golly.sourceforge.net/",
+    "version": "3.1",
+    "license": "GPLv2",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/golly/golly/golly-3.1/golly-3.1-win-64bit.zip",
+            "hash": "sha1:711e665c9ded1d555e4a6e3fd41eab5d9fe92b21",
+            "extract_dir": "golly-3.1-win-64bit"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/golly/golly/golly-3.1/golly-3.1-win-32bit.zip",
+            "hash": "sha1:d643756829d83dcf22b70e7d3c0cd8e51c45d599",
+            "extract_dir": "golly-3.1-win-32bit"
+        }
+    },
+    "bin": [
+        "bgolly.exe",
+        "Golly.exe"
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/golly/files/golly",
+        "regex": "title=\"golly-([\\d\\.]+)\"\\s+class=\"folder"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/golly/golly/golly-$version/golly-$version-win-64bit.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                },
+                "extract_dir": "golly-$version-win-64bit"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/golly/golly/golly-$version/golly-$version-win-32bit.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                },
+                "extract_dir": "golly-$version-win-32bit"
+            }
+        }
+    }
+}
