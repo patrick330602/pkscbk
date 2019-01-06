@@ -7,7 +7,6 @@ Programs that I use for scoop but will possbily have problems to include in `mai
 
 ### main
 
-- `doctl`: A command line tool for DigitalOcean services
 - `boxes`: A command line filter program that draws ASCII art boxes around your input text
 
 ### extras
