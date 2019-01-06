@@ -1,7 +1,7 @@
 # pkscbk
 Patrick's scoop Bucket - My Personal Scoop repository
 
-Programs that I use for scoop but not in `main` or `extra`.
+Programs that I use for scoop but not satisfied to include in `main` or `extra`.
 
 ## List of programs
 - `pixivutil`: Download images from Pixiv and more
