@@ -1,5 +1,6 @@
-# pkscbk
-Patrick's scoop Bucket - My Personal Scoop repository
+# Pkscbk
+
+Patrick's scoop Bucket -- My Personal Scoop repository
 
 Programs that I use for scoop but will possbily have problems to include in `main` or `extra`.
 
