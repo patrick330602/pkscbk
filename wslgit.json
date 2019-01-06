@@ -8,18 +8,13 @@
             "hash": "acd220702cfc6d2dd23b0aac8e52abc2318c5efdf6367ce93979d16c4cfd174c"
         }
     },
-    "suggest": {
-        "vcredist": ["extras/vcredist2017"]
-    },
+    "depends": ["extras/vcredist2017"],
     "homepage": "https://github.com/andy-5/wslgit",
     "bin": "wslgit.exe",
     "checkver": {
         "url": "https://github.com/andy-5/wslgit/releases/latest",
         "re": "/releases/tag/v([\\d\\.]+)"
     },
-    "notes": [
-        "Installation complete. But if you encounter issue when using, please install the suggested package 'vcredist2017'."
-    ],
     "autoupdate": {
         "architecture": {
             "64bit": {
