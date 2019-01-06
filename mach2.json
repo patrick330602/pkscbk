@@ -14,24 +14,18 @@
         }
     },
     "bin": "mach2.exe",
-    "checkver": {
-        "url": "https://github.com/riverar/mach2/releases/latest",
-        "re": "/releases/tag/([\\d\\.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/riverar/mach2/releases/download/$version/mach2_$version_x64.zip",
-                "hash": {
-                    "url": "$url.sha256"
-                }
+                "url": "https://github.com/riverar/mach2/releases/download/$version/mach2_$version_x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/riverar/mach2/releases/download/$version/mach2_$version_x86.zip",
-                "hash": {
-                    "url": "$url.sha256"
-                }
+                "url": "https://github.com/riverar/mach2/releases/download/$version/mach2_$version_x86.zip"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     }
 }
