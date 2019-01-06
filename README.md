@@ -6,14 +6,7 @@ Programs that I use for scoop but will possbily have problems to include in `mai
 
 ## Pending PR to major buckets
 
-### main
-
-- `mach2`: Feature Control Multi-tool for Windows 10
-- `boxes`: A command line filter program that draws ASCII art boxes around your input text
-
-### extras
-
-- `wslgit`: A small executable that forwards all arguments to git running inside Bash on Windows/Windows Subsystem for Linux (WSL)
+N/A currently.
 
 ## List of programs
 
