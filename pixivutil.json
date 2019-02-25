@@ -1,10 +1,10 @@
 {
     "description": "Download images from Pixiv and more",
-    "version": "20190108",
+    "version": "20190212",
     "license": "BSD 2-Clause",
-    "url": "https://github.com/Nandaka/PixivUtil2/releases/download/v20190108/pixivutil20190108.zip",
+    "url": "https://github.com/Nandaka/PixivUtil2/releases/download/v20190212/pixivutil20190212.zip",
     "homepage": "https://github.com/Nandaka/PixivUtil2",
-    "hash": "2ccf72b2c9f7fa4bb4eba2e289d1852938fb610bb7e8bed52a23066144b1bd4c",
+    "hash": "3297b96c62d3d7c1572393d721844d36ffcf2876b5ff53a26af1add8ca6e86e2",
     "bin": "PixivUtil2.exe",
     "checkver": {
         "url": "https://github.com/Nandaka/PixivUtil2/releases/latest",
