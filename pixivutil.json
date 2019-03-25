@@ -7,8 +7,7 @@
     "hash": "24418161b0bf682052b4c039e9a773c1c884e7ce221e8ca89d8f5669d7a599e8",
     "bin": "PixivUtil2.exe",
     "checkver": {
-        "url": "https://github.com/Nandaka/PixivUtil2/releases/latest",
-        "re": "/releases/tag/v([\\d\\-]+)"
+        "github": "https://github.com/Nandaka/PixivUtil2"
     },
     "autoupdate": {
         "url": "https://github.com/Nandaka/PixivUtil2/releases/download/v$version/pixivutil$version.zip",
