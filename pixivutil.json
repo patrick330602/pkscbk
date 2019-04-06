@@ -10,7 +10,7 @@
         "github": "https://github.com/Nandaka/PixivUtil2"
     },
     "autoupdate": {
-        "url": "https://github.com/Nandaka/PixivUtil2/releases/download/$version/pixivutil$version.zip",
+        "url": "https://github.com/Nandaka/PixivUtil2/releases/download/v$version/pixivutil$version.zip",
         "hash": {
             "url": "$url.sha256"
         }
