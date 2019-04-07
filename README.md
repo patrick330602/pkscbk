@@ -15,4 +15,3 @@ N/A currently.
 - `golly`: An open source, cross-platform application for exploring Conway's Game of Life and many other types of cellular automata
 - `mcomix`: A GTK+ comic book viewer
 - `desmume`: A Nintendo DS emulator
-- `dive`: A tool for exploring each layer in a docker image
