@@ -5,16 +5,12 @@
     "license": "GPLv3",
     "url": "https://github.com/Nuke928/NTop/releases/download/v0.3.2/ntop.exe",
     "hash": "e6a341da4240a29351f42faf8bec2e1ada99f5e535dcbedacf7258ef775ded9f",
-    "bin": [
-        "ntop.exe"
-    ],
-    "checkver": {
-        "github": "https://github.com/Nuke928/NTop",
-    },
+    "bin": "ntop.exe",
+    "checkver": "github",
     "autoupdate": {
-                "url": "https://github.com/Nuke928/NTop/releases/download/v$version/ntop.exe",
-                "hash": {
-                    "url": "$url.sha256"
-                }
+        "url": "https://github.com/Nuke928/NTop/releases/download/v$version/ntop.exe",
+        "hash": {
+           "url": "$url.sha256"
+        }
     }
 }
