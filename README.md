@@ -10,6 +10,7 @@ N/A currently.
 
 ## List of programs
 
+- `ntop`: htop-like system-monitor with Vi-emulation for Windows
 - `pixivutil`: Download images from Pixiv and more
 - `yuwriter`: Efficient cross-platform Markdown text editor
 - `golly`: An open source, cross-platform application for exploring Conway's Game of Life and many other types of cellular automata
