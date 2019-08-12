@@ -31,13 +31,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://downloads.factorcode.org/releases/0.97/factor-windows-x86-64-$version.zip",
+                "url": "http://downloads.factorcode.org/releases/$version/factor-windows-x86-64-$version.zip",
                 "hash": {
                     "url": "$url.sha256"
                 }
             },
             "32bit": {
-                "url": "http://downloads.factorcode.org/releases/0.97/factor-windows-x86-32-$version.zip",
+                "url": "http://downloads.factorcode.org/releases/$version/factor-windows-x86-32-$version.zip",
                 "hash": {
                     "url": "$url.sha256"
                 }
