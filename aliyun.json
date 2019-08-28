@@ -1,12 +1,12 @@
 {
     "description": "Alibaba Cloud CLI",
     "homepage": "https://github.com/aliyun/aliyun-cli",
-    "version": "3.0.23",
+    "version": "3.0.24",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aliyun/aliyun-cli/releases/download/v3.0.23/aliyun-cli-windows-3.0.23-amd64.zip",
-            "hash": "5f8d89089fea72d701da65b7bac1c818e4e01d5c0b9cc3d2ba750b8ff64d82c7"
+            "url": "https://github.com/aliyun/aliyun-cli/releases/download/v3.0.24/aliyun-cli-windows-3.0.24-amd64.zip",
+            "hash": "e9242d9e3275027f5c5b86a772286b6bbb00a7fc99f9eccfdb6b402f12ab2891"
         }
     },
     "bin": "aliyun.exe",
