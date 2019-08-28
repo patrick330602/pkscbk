@@ -11,7 +11,6 @@
         "32bit": {
             "url": "https://downloads.sourceforge.net/project/desmume/desmume/0.9.11/desmume-0.9.11-win32.zip",
             "hash": "e6a341da4240a29351f42faf8bec2e1ada99f5e535dcbedacf7258ef775ded9f"
-            
         }
     },
     "pre_install": "Get-ChildItem \"$dir\\DeSmuME_*.exe\" | Rename-Item -NewName \"$dir\\desmume.exe\"",
