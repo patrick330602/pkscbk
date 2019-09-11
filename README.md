@@ -6,7 +6,7 @@ Programs that I use for scoop but will possbily have problems to include in `mai
 
 ## Pending PR to major buckets
 
-N/A currently.
+- `aliyun`: Alibaba Cloud CLI
 
 ## List of programs
 
@@ -17,4 +17,3 @@ N/A currently.
 - `mcomix`: A GTK+ comic book viewer
 - `desmume`: A Nintendo DS emulator
 - `factorcode`: A concatenative, stack-based programming language with high-level features including dynamic types, extensible syntax, macros, and garbage collection
-- `aliyun`: Alibaba Cloud CLI
