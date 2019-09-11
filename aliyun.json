@@ -10,16 +10,11 @@
         }
     },
     "bin": "aliyun.exe",
-    "checkver": {
-        "github": "https://github.com/aliyun/aliyun-cli"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aliyun/aliyun-cli/releases/download/v$version/aliyun-cli-windows-$version-amd64.zip",
-                "hash": {
-                    "url": "$url.sha256"
-                }
+                "url": "https://github.com/aliyun/aliyun-cli/releases/download/v$version/aliyun-cli-windows-$version-amd64.zip"
             }
         }
     }
