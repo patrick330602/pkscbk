@@ -6,7 +6,7 @@ Programs that I use for scoop but will possbily have problems to include in `mai
 
 ## Pending PR to major buckets
 
-- `aliyun`: Alibaba Cloud CLI
+N/A
 
 ## List of programs
 
