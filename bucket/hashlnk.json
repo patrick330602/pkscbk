@@ -1,0 +1,9 @@
+{
+    "description": "Utility to compute and apply a hash for \"WinX\" shortcuts",
+    "homepage": "https://github.com/riverar/hashlnk",
+    "version": "0.0.2",
+    "license": "MIT",
+    "url": "https://github.com/riverar/hashlnk/raw/master/bin/hashlnk_0.2.0.0.zip",
+    "hash": "5F73236E40D85D5FD7E27DDDB23EF011A4FDF805B5A40BA2E52D224B66CA1AEE",
+    "bin": "hashlnk.exe"
+}
